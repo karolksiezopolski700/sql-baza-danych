@@ -10,7 +10,7 @@ Umożliwia przechowywanie informacji o dziełach sztuki, ich twórcach, galeriac
   - artystach (ID, imię, nazwisko, rok urodzenia i rok śmierci),  
   - galeriach muzeum,  
   - historii położenia eksponatów i wypożyczeń.  
-- Zaimplementowałem prostą stronę internetową (HTML/CSS/PHP), która umożliwia:
+- Zaimplementowałem prostą stronę internetową (HTML/PHP), która umożliwia:
   - wprowadzanie nowych eksponatów, artystów i galerii,  
   - aktualizację położenia eksponatów,  
   - wprowadzanie i przeglądanie wypożyczeń,  
