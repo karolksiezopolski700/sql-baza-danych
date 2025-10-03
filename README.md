@@ -24,7 +24,8 @@ Umożliwia przechowywanie informacji o dziełach sztuki, ich twórcach, galeriac
 
 ## Jak uruchomić projekt lokalnie
 1. Zainstaluj PostgreSQL na swoim komputerze (np. przez PgAdmin).  
-2. Utwórz nową bazę danych i zaimportuj plik `schema.sql` (tworzy tabele i przykładowe dane).  
+2. Utwórz nową bazę danych i zaimportuj plik `Muzeum.sql` (tworzy tabele i wyzwalacze).  
 3. W plikach PHP zmień dane połączenia z bazy danych na lokalne:
    ```php
    $link = pg_connect("host=localhost dbname=twoja_baza user=twoj_user password=twoje_haslo");
+4. Otwórz stronę HTML w przeglądarce lub uruchom lokalny serwer, aby strona mogła połączyć się z bazą danych.
