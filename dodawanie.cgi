@@ -62,7 +62,7 @@ function konwertujNaNull($wartosc) { //zmienia "" na NULL
 
 parse_str($_SERVER['QUERY_STRING'],$_GET);
 
-$link = pg_connect("host=lkdb dbname=mrbd user=kk438801 password=karol321");
+$link = pg_connect("host=localhost dbname=twoja_baza user=twoj_user password=twoje_haslo");
 
 $_GET = array_map('konwertujNaNull', $_GET); //zmienia "" na NULL
 
