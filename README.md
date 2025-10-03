@@ -23,7 +23,8 @@ Umożliwia przechowywanie informacji o dziełach sztuki, ich twórcach, galeriac
 - Historia ekspozycji i wypożyczeń jest przechowywana, nie tylko aktualne położenie eksponatów.  
 
 ## Jak uruchomić projekt lokalnie
-1. Zainstaluj PostgreSQL na swoim komputerze (np. przez PgAdmin).  
+Baza danych jak i strona z aplikacją była wykonana w ramach serwera studenckiego, więc uruchomienie ich w obecnej formie jest niemożliwe. Aby uruchomić je lokalnie:
+1. Zainstaluj PostgreSQL na swoim komputerze.  
 2. Utwórz nową bazę danych i zaimportuj plik `Muzeum.sql` (tworzy tabele i wyzwalacze).  
 3. W plikach PHP zmień dane połączenia z bazy danych na lokalne:
    ```php
