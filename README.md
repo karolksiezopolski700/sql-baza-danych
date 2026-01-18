@@ -6,6 +6,9 @@
 This project is designed to help an art museum manage its exhibits (paintings, sculptures, etc.) using a PostgreSQL database and a simple web application.  
 It allows storing information about artworks, their creators, galleries, and loans to other institutions.
 
+## Entity-Relationship Diagram
+![Database ERD](ERD.png)
+
 ## Features
 - Store information about:
   - Exhibits (unique code, title, type, dimensions, and weight)
