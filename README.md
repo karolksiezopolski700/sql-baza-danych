@@ -7,7 +7,7 @@ This project is designed to help an art museum manage its exhibits (paintings, s
 It allows storing information about artworks, their creators, galleries, and loans to other institutions.
 
 ## Entity-Relationship Diagram
-![Database ERD](Muzeum-2024-12-08_19-50 (1).png)
+![Database ERD](ERD.png)
 
 ## Features
 - Store information about:
@@ -44,6 +44,9 @@ It allows storing information about artworks, their creators, galleries, and loa
 ## Opis projektu
 Projekt miał na celu wspomaganie muzeum sztuki w zarządzaniu eksponatami (obrazami, rzeźbami itp.) poprzez komputerową bazę danych i prostą aplikację internetową.  
 Umożliwia przechowywanie informacji o dziełach sztuki, ich twórcach, galeriach oraz wypożyczeniach do innych instytucji.
+
+## Entity-Relationship Diagram
+![Database ERD](ERD.png)
 
 ## Co zrobiłem
 - Stworzyłem bazę danych w PostgreSQL, zawierającą informacje o:
