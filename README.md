@@ -27,7 +27,7 @@ It allows storing information about artworks, their creators, galleries, and loa
 - The museum always has at least one exhibit from each artist in its galleries or storage
 - History of exhibitions and loans is stored, not just current locations
 
-## Getting Started
+## How to launch the project locally
 > The database and web application were created on a student server. To run them locally:
 
 1. Install [PostgreSQL](https://www.postgresql.org/) on your computer
