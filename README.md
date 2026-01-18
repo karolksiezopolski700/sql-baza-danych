@@ -1,3 +1,41 @@
+## English
+
+# Museum Exhibit Management System (Student Project)
+
+## Project Description
+This project is designed to help an art museum manage its exhibits (paintings, sculptures, etc.) using a PostgreSQL database and a simple web application.  
+It allows storing information about artworks, their creators, galleries, and loans to other institutions.
+
+## Features
+- Store information about:
+  - Exhibits (unique code, title, type, dimensions, and weight)
+  - Artists (ID, first name, last name, year of birth, year of death)
+  - Museum galleries
+  - Exhibit location history and loans
+- Web application (HTML/PHP) allows:
+  - Adding new exhibits, artists, and galleries
+  - Updating exhibit locations
+  - Recording and viewing loans
+  - Searching for works by a specific artist and checking their availability for visitors
+- Database diagram showing tables and relationships
+
+## Business Rules Implemented
+- No exhibit can be outside the museum for more than 30 days per year
+- The museum always has at least one exhibit from each artist in its galleries or storage
+- History of exhibitions and loans is stored, not just current locations
+
+## Getting Started
+> The database and web application were created on a student server. To run them locally:
+
+1. Install [PostgreSQL](https://www.postgresql.org/) on your computer
+2. Create a new database and import `Muzeum.sql` (creates tables and triggers)
+3. Update the database connection settings in the PHP files:
+   ```php
+   $link = pg_connect("host=localhost dbname=your_database user=your_user password=your_password");
+4. Open the HTML page in your browser, or run a local server so the pages can connect to the database
+
+## Polski
+
 # System obsługi eksponatów muzealnych (projekt studencki)
 
 ## Opis projektu
