@@ -7,7 +7,7 @@ This project is designed to help an art museum manage its exhibits (paintings, s
 It allows storing information about artworks, their creators, galleries, and loans to other institutions.
 
 ## Entity-Relationship Diagram
-![Database ERD](ERD.png)
+![Database ERD](Muzeum-2024-12-08_19-50 (1).png)
 
 ## Features
 - Store information about:
